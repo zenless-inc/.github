@@ -1,0 +1,69 @@
+name: Bug report
+description: Something in a Zenless app doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please search existing issues first.
+        **Security problems:** don't file them here; see the [security policy](https://github.com/zenless-inc/.github/blob/main/SECURITY.md).
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Download Manager
+        - Torrent
+        - Installer / uninstaller
+        - Chrome / Chromium extension
+        - Firefox extension
+        - Website
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in Settings → About (or the extension's options page).
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2"
+  - type: input
+    id: browser
+    attributes:
+      label: Browser (for extension issues)
+      placeholder: "Chrome 140 / Firefox 143"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add the URL …
+        2. Click Pause, then Resume
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: Screenshots help a lot. Remove anything private (URLs with tokens, cookies, file paths) first.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Anything relevant from `%APPDATA%\Zenless\...` or the browser's extension console.
+      render: text

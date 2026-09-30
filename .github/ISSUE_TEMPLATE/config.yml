@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup guide
+    url: https://zenless-suite.vercel.app/download
+    about: Installing Zenless, connecting your browser, and the SmartScreen warning.
+  - name: Report a security vulnerability
+    url: https://github.com/zenless-inc/.github/blob/main/SECURITY.md
+    about: Please report security problems privately, not as a public issue.

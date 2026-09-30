@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest an idea or improvement for Zenless.
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Download Manager
+        - Torrent
+        - Installer
+        - Browser extensions
+        - Themes
+        - Website
+        - Whole suite
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe what you're trying to do and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How you imagine it working. Mock-ups and examples from other apps are welcome.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
