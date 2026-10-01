@@ -7,8 +7,8 @@ reporting, since the issue may already be fixed.
 
 | Version | Supported |
 |---|---|
-| 0.1.x (latest) | ✅ |
-| Older | ❌ |
+| 0.2.x (latest) | ✅ |
+| 0.1.x and older | ❌ |
 
 ## Reporting a vulnerability
 

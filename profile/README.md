@@ -47,7 +47,7 @@ and browser integration for Chrome and Firefox. Separate apps, not a bloated all
 2. Pick the apps you want, choose a theme, and install. No admin rights are needed.
 3. Connect your browser from the last page of the installer, or follow the [extension setup guide](https://zenless-suite.vercel.app/download).
 
-> Zenless is new (v0.1) and not code-signed yet, so Windows SmartScreen may warn you. Click **More info → Run anyway**.
+> Zenless is new (v0.2) and not code-signed yet, so Windows SmartScreen may warn you. Click **More info → Run anyway**.
 
 ## Contributing
 
