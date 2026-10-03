@@ -36,8 +36,8 @@ and browser integration for Chrome and Firefox. Separate apps, not a bloated all
 ## Highlights
 
 - **Native and small.** Rust, [egui](https://github.com/emilk/egui) and [tokio](https://tokio.rs). No Electron and no background services.
-- **Themes everywhere.** 13 built-in themes (Zenless, Midnight, Dracula, Nord, Tokyo Night, Catppuccin Mocha, Gruvbox,
-  Rosé Pine, Neon Cyber, Forest, Solarized Light, Paper, High Contrast) plus your own custom themes, shared live across every Zenless app.
+- **Themes everywhere.** 34 built-in themes, from Zenless and true-black AMOLED Purple to Dracula, Nord, Catppuccin,
+  One Dark, Kanagawa, Synthwave, Solarized and Paper, plus your own custom themes, shared live across every Zenless app.
 - **Private by design.** No telemetry and no accounts. The browser extensions only talk to the apps on `127.0.0.1`.
 - **Open source.** Everything is MIT licensed.
 
